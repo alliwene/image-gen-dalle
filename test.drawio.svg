@@ -1,0 +1,84 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="341px" height="351px" viewBox="-0.5 -0.5 341 351" content="&lt;mxfile&gt;&lt;diagram id=&quot;_7JLxcd_7oyz7YWtdTuj&quot; name=&quot;Page-1&quot;&gt;zVZLc5swEP41HOvhYZzmmBC3zfTlGR/anDIybEATkBhJ+NFf3xWSeBTstoc0vcDual/69pPAi5Lq+F6QuvjMMyi90M+OXnTnhWHg+z6+tOVkLKuryBhyQTPr1Bu29Ae4SGttaAZy5Kg4LxWtx8aUMwapGtmIEPwwdnvi5bhqTXKYGLYpKafWbzRThbG+jf3e/gFoXrjKgdtwRZyzNciCZPwwMEVrL0oE58pI1TGBUoPncDFx786sdo0JYOpPAq5tG+rk9gYZbtWqjDN83RaqKlELUIQjVd9R9hex1R4GK3d6wr5TTlYxJXTes01ak+SNSK1X2KGBNAJegRIndBFQEkX341TEzjPv/LrQDadYJPQt98JrC7xlXuAG4VIoInJQNqoHDoVBG72phXMe2tAk3pOysd2+QTURQBSgwGtghOrKacobXW1VIhq3O4FSrqWR+1fnfrO5b+n+DGwyO4GJMsjsRA4FVbCtSYvoAU/ieJS2PRAKjpcHM52CC/gFTQfmoT8UoaN+MTgQK//83EaIX4A3WP631I3/CXXD5YtRN75M3QWwvbldFaGMslzzc7P+cnPf8fMZTr8h9CKniuaMC2jprGFmshGD/E+01BqV+GBcI1E3skB6W39MUDS71z8EcTx/pQxPwdULnYLVZFId7A51WuHn6DHX14VZwZzd4syQPnGiIc64aseQjO4qppe4nAlrJNgl6+USmGGVJqsqoJ10P985kmxBDSn1cf2g3QWvxuSD2VsztQxbkUoPm+1k3W7UtiUL/N6iokWkrqGYhqgvoberXfSOG2n4XeNSreY27ur5VaP/QPqEci486VtwVU2CbNrxaxM7PHPhDIgdLWeIHUR/z2xU+78ec2X1/47R+ic=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 170 60 L 170 93.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 170 98.88 L 166.5 91.88 L 170 93.63 L 173.5 91.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="70" y="0" width="200" height="60" rx="9" ry="9" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 198px; height: 1px; padding-top: 30px; margin-left: 71px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                - Create openai account
+                                <br/>
+                                - Create Openai API token
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="170" y="34" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    - Create openai account...
+                </text>
+            </switch>
+        </g>
+        <path d="M 170 160 L 170 213.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 170 218.88 L 166.5 211.88 L 170 213.63 L 173.5 211.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="35" y="100" width="270" height="60" rx="9" ry="9" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 268px; height: 1px; padding-top: 130px; margin-left: 36px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                - Create .env containing OPENAI API key
+                                <br/>
+                                - Create .gitignore to ensure .env file is not pushed to github
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="170" y="134" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    - Create .env containing OPENAI API key...
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="220" width="340" height="130" rx="19.5" ry="19.5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 338px; height: 1px; padding-top: 285px; margin-left: 1px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <b>
+                                    image_gen
+                                </b>
+                                <br/>
+                                -Load dotenv, openai and os
+                                <br/>
+                                -use os and dotenv to load the env file
+                                <br/>
+                                - Set OPENAI KEY from .env content
+                                <br/>
+                                -create  and show a single image from open ai using prompts
+                                <br/>
+                                -create multiple images using prompts, show image created
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="170" y="289" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    image_gen...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
