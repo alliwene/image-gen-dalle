@@ -7,6 +7,10 @@ import requests
 from PIL.Image import Image
 from PIL import Image as img
 
+load_dotenv()
+
+openai.api_key = os.getenv('OPENAI_API_KEY')
+
 
 def get_images(
     prompt: str,
