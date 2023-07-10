@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 from typing import Literal, List
 
 import openai
-from openai import InvalidRequestError
 import requests
 from PIL.Image import Image
 from PIL import Image as img
@@ -30,12 +29,6 @@ def create_image_variation(
     num_of_images: int = 1,
     image_size: Literal["256x256", "512x512", "1024x1024"] = "256x256",
 ):
-    img_mode = img.open(img_path).mode
-    if img_mode not in ["RGB", "RGBA"]:
-        raise InvalidRequestError(
-            f"Invalid input image - format must be RGB or RGBA not {img_mode}"
-        )
-
     response = openai.Image.create_variation(
         image=open(img_path, "rb"), n=num_of_images, size=image_size
     )
