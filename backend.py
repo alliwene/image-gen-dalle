@@ -50,7 +50,7 @@ def create_image_variation(
     image_size: Literal["256x256", "512x512", "1024x1024"] = "256x256",
 ):
     # convert to png 
-    if os.path.splitext(img_path)[-1] != '.png' | '.PNG':
+    if os.path.splitext(img_path)[-1] not in ['.png', '.PNG']:
         img_path = convert_to_png(img_path)
         
     response = openai.Image.create_variation(
